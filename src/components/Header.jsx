@@ -218,6 +218,14 @@ const Header = () => {
             <FiBell className="text-white text-xl cursor-pointer" />
           </div>
         </div>
+        <div className="flex h-8 w-16 overflow-hidden rounded-full md:ml-4">
+          <button
+            onClick={() => navigate("/register")}
+            className="cursor-pointer text-white"
+          >
+            LogOut
+          </button>
+        </div>
         <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
           <img
             onClick={() => navigate("/register")}
