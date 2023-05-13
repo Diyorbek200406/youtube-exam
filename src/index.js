@@ -14,5 +14,3 @@ root.render(
     <App />
   </AppContext>
 );
-
-// ok end The Leader
